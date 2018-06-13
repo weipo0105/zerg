@@ -1,0 +1,88 @@
+---------------------------------------------------------------
+[ 2018-05-23T11:44:48+08:00 ] 114.249.217.86 GET /zerg/public/index.php/api/v1/banner/1
+[ info ] weapp.wample.cn/zerg/public/index.php/api/v1/banner/1 [运行时间：0.279570s][吞吐率：3.58req/s] [内存消耗：4,386.14kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.039857s ] mysql:host=101.201.232.185;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.001802s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000486s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.000733s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000433s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.000729s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000437s ]
+---------------------------------------------------------------
+[ 2018-05-23T11:45:51+08:00 ] 114.249.217.86 GET /zerg/public/index.php/api/v1/banner/1
+[ info ] weapp.wample.cn/zerg/public/index.php/api/v1/banner/1 [运行时间：0.247016s][吞吐率：4.05req/s] [内存消耗：4,386.15kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002276s ] mysql:host=101.201.232.185;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.000751s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000439s ]
+---------------------------------------------------------------
+[ 2018-05-23T11:45:51+08:00 ] 114.249.217.86 GET /zerg/public/index.php/api/v1/banner/1
+[ info ] weapp.wample.cn/zerg/public/index.php/api/v1/banner/1 [运行时间：0.245686s][吞吐率：4.07req/s] [内存消耗：4,386.15kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001612s ] mysql:host=101.201.232.185;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000932s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000470s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000464s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.000740s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000448s ]
+---------------------------------------------------------------
+[ 2018-05-23T11:47:39+08:00 ] 114.249.217.86 GET /zerg/public/index.php/api/v1/banner/1?XDEBUG_SESSION_START=17266
+[ info ] weapp.wample.cn/zerg/public/index.php/api/v1/banner/1?XDEBUG_SESSION_START=17266 [运行时间：0.248041s][吞吐率：4.03req/s] [内存消耗：4,385.91kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001631s ] mysql:host=101.201.232.185;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000940s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.000770s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000439s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.000792s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000449s ]
+---------------------------------------------------------------
+[ 2018-05-23T11:47:47+08:00 ] 114.249.217.86 GET /zerg/public/index.php/api/v1/banner/1?XDEBUG_SESSION_START=17266
+[ info ] weapp.wample.cn/zerg/public/index.php/api/v1/banner/1?XDEBUG_SESSION_START=17266 [运行时间：0.245622s][吞吐率：4.07req/s] [内存消耗：4,386.14kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001670s ] mysql:host=101.201.232.185;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000939s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000469s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.000752s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.000743s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000429s ]
+---------------------------------------------------------------
+[ 2018-05-23T11:48:19+08:00 ] 114.249.217.86 GET /zerg/public/index.php/api/v1/banner/1
+[ info ] weapp.wample.cn/zerg/public/index.php/api/v1/banner/1 [运行时间：0.244498s][吞吐率：4.09req/s] [内存消耗：4,385.73kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000719s ] mysql:host=101.201.232.185;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000919s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000470s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.000744s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000425s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000466s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.000740s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000457s ]
+---------------------------------------------------------------
+[ 2018-05-23T19:36:23+08:00 ] 117.136.0.231 GET /zerg/public/index.php/api/v1/banner/1
+[ info ] weapp.wample.cn/zerg/public/index.php/api/v1/banner/1 [运行时间：0.291226s][吞吐率：3.43req/s] [内存消耗：4,385.78kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.043167s ] mysql:host=101.201.232.185;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.002003s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.000777s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.000794s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000455s ]
+---------------------------------------------------------------
+[ 2018-05-23T20:00:06+08:00 ] 117.136.0.231 GET /zerg/public/index.php/api/v1/banner/1
+[ info ] weapp.wample.cn/zerg/public/index.php/api/v1/banner/1 [运行时间：0.270456s][吞吐率：3.70req/s] [内存消耗：4,385.05kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027250s ] mysql:host=101.201.232.185;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.001788s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.000781s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000439s ]

@@ -1,0 +1,30 @@
+---------------------------------------------------------------
+[ 2018-05-18T22:36:07+08:00 ] 117.136.0.231 GET /zerg/public/index.php/api/v1/banner/1
+[ info ] weapp.wample.cn/zerg/public/index.php/api/v1/banner/1 [运行时间：0.041188s][吞吐率：24.28req/s] [内存消耗：2,840.16kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011704s ] mysql:host=101.201.232.185;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.001954s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  (  `banner_id` = 1 ) [ RunTime:0.000452s ]
+---------------------------------------------------------------
+[ 2018-05-18T22:55:11+08:00 ] 117.136.0.231 GET /zerg/public/index.php/api/v1/banner/1
+[ info ] weapp.wample.cn/zerg/public/index.php/api/v1/banner/1 [运行时间：0.029166s][吞吐率：34.29req/s] [内存消耗：3,263.91kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000772s ] mysql:host=101.201.232.185;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.002041s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000555s ]
+---------------------------------------------------------------
+[ 2018-05-18T23:01:16+08:00 ] 117.136.0.231 GET /zerg/public/index.php/api/v1/banner/1
+[ info ] weapp.wample.cn/zerg/public/index.php/api/v1/banner/1 [运行时间：0.031535s][吞吐率：31.71req/s] [内存消耗：3,251.84kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001316s ] mysql:host=101.201.232.185;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.001774s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000456s ]
+---------------------------------------------------------------
+[ 2018-05-18T23:03:32+08:00 ] 117.136.0.231 GET /zerg/public/index.php/api/v1/banner/1
+[ info ] weapp.wample.cn/zerg/public/index.php/api/v1/banner/1 [运行时间：0.031373s][吞吐率：31.87req/s] [内存消耗：3,263.71kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000798s ] mysql:host=101.201.232.185;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000927s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000453s ]
+---------------------------------------------------------------
+[ 2018-05-18T23:03:36+08:00 ] 117.136.0.231 GET /zerg/public/index.php/api/v1/banner/1
+[ info ] weapp.wample.cn/zerg/public/index.php/api/v1/banner/1 [运行时间：0.031893s][吞吐率：31.35req/s] [内存消耗：3,263.71kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001812s ] mysql:host=101.201.232.185;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000892s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000451s ]

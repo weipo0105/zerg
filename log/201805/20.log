@@ -1,0 +1,161 @@
+---------------------------------------------------------------
+[ 2018-05-20T09:30:55+08:00 ] 117.136.38.128 GET /zerg/public/index.php/api/v1/banner/1
+[ info ] weapp.wample.cn/zerg/public/index.php/api/v1/banner/1 [运行时间：0.037985s][吞吐率：26.33req/s] [内存消耗：3,605.34kb] [文件加载：53]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001602s ] mysql:host=101.201.232.185;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.001701s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000436s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.000713s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.000701s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000456s ]
+---------------------------------------------------------------
+[ 2018-05-20T09:41:17+08:00 ] 117.136.38.128 GET /zerg/public/index.php/api/v1/theme?ids=1,2,3
+[ info ] weapp.wample.cn/zerg/public/index.php/api/v1/theme?ids=1,2,3 [运行时间：0.047819s][吞吐率：20.91req/s] [内存消耗：3,862.67kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007550s ] mysql:host=101.201.232.185;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.001955s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.000726s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000474s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.000491s ]
+---------------------------------------------------------------
+[ 2018-05-20T09:51:00+08:00 ] 117.136.38.128 GET /zerg/public/index.php/api/v1/theme?ids=1,2,3
+[ info ] weapp.wample.cn/zerg/public/index.php/api/v1/theme?ids=1,2,3 [运行时间：0.033024s][吞吐率：30.28req/s] [内存消耗：3,863.68kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000715s ] mysql:host=101.201.232.185;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.000885s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.000687s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.000405s ]
+---------------------------------------------------------------
+[ 2018-05-20T10:56:53+08:00 ] 117.136.38.128 GET /zerg/public/index.php/api/v1/theme/1
+[ info ] weapp.wample.cn/zerg/public/index.php/api/v1/theme/1 [运行时间：0.037605s][吞吐率：26.59req/s] [内存消耗：4,117.52kb] [文件加载：60]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000798s ] mysql:host=101.201.232.185;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.000909s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.000680s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000716s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000464s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.000395s ]
+---------------------------------------------------------------
+[ 2018-05-20T11:06:07+08:00 ] 117.136.38.128 GET /zerg/public/index.php/api/v1/theme/1
+[ info ] weapp.wample.cn/zerg/public/index.php/api/v1/theme/1 [运行时间：0.045982s][吞吐率：21.75req/s] [内存消耗：4,117.92kb] [文件加载：60]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001363s ] mysql:host=101.201.232.185;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.001793s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.000686s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000723s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.000415s ]
+---------------------------------------------------------------
+[ 2018-05-20T11:27:15+08:00 ] 117.136.38.128 GET /zerg/public/index.php/api/v1/theme/1
+[ info ] weapp.wample.cn/zerg/public/index.php/api/v1/theme/1 [运行时间：0.047400s][吞吐率：21.10req/s] [内存消耗：4,119.09kb] [文件加载：60]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011478s ] mysql:host=101.201.232.185;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.001180s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000460s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.000668s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000691s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.000693s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.000396s ]
+---------------------------------------------------------------
+[ 2018-05-20T21:07:47+08:00 ] 123.149.73.205 GET /zerg/public/index.php/api/v1/product/recent?count=15
+[ info ] weapp.wample.cn/zerg/public/index.php/api/v1/product/recent?count=15 [运行时间：0.041758s][吞吐率：23.95req/s] [内存消耗：3,337.63kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007474s ] mysql:host=101.201.232.185;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.002049s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 15 [ RunTime:0.000671s ]
+---------------------------------------------------------------
+[ 2018-05-20T21:08:26+08:00 ] 123.149.73.205 GET /zerg/public/index.php/api/v1/product/recent?count=1
+[ info ] weapp.wample.cn/zerg/public/index.php/api/v1/product/recent?count=1 [运行时间：0.030898s][吞吐率：32.36req/s] [内存消耗：3,326.87kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000752s ] mysql:host=101.201.232.185;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000967s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 1 [ RunTime:0.000574s ]
+---------------------------------------------------------------
+[ 2018-05-20T21:08:32+08:00 ] 123.149.73.205 GET /zerg/public/index.php/api/v1/product/recent?count=2
+[ info ] weapp.wample.cn/zerg/public/index.php/api/v1/product/recent?count=2 [运行时间：0.031509s][吞吐率：31.74req/s] [内存消耗：3,327.70kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000806s ] mysql:host=101.201.232.185;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000915s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 2 [ RunTime:0.000650s ]
+---------------------------------------------------------------
+[ 2018-05-20T21:08:41+08:00 ] 123.149.73.205 GET /zerg/public/index.php/api/v1/product/recent?count=15
+[ info ] weapp.wample.cn/zerg/public/index.php/api/v1/product/recent?count=15 [运行时间：0.033421s][吞吐率：29.92req/s] [内存消耗：3,337.63kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000795s ] mysql:host=101.201.232.185;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000944s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 15 [ RunTime:0.000494s ]
+---------------------------------------------------------------
+[ 2018-05-20T21:16:31+08:00 ] 123.149.73.205 GET /zerg/public/index.php/api/v1/product/recent?count=15
+[ info ] weapp.wample.cn/zerg/public/index.php/api/v1/product/recent?count=15 [运行时间：0.031946s][吞吐率：31.30req/s] [内存消耗：3,338.04kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000777s ] mysql:host=101.201.232.185;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000943s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 15 [ RunTime:0.000505s ]
+---------------------------------------------------------------
+[ 2018-05-20T21:17:15+08:00 ] 123.149.73.205 GET /zerg/public/index.php/api/v1/product/recent?count=15
+[ info ] weapp.wample.cn/zerg/public/index.php/api/v1/product/recent?count=15 [运行时间：0.031907s][吞吐率：31.34req/s] [内存消耗：3,337.82kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000731s ] mysql:host=101.201.232.185;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000942s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 15 [ RunTime:0.000476s ]
+---------------------------------------------------------------
+[ 2018-05-20T21:23:12+08:00 ] 123.149.73.205 GET /zerg/public/index.php/api/v1/product/recent?count=15
+[ info ] weapp.wample.cn/zerg/public/index.php/api/v1/product/recent?count=15 [运行时间：0.042000s][吞吐率：23.81req/s] [内存消耗：3,418.57kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006966s ] mysql:host=101.201.232.185;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 15 [ RunTime:0.000510s ]
+---------------------------------------------------------------
+[ 2018-05-20T21:29:26+08:00 ] 123.149.73.205 GET /zerg/public/index.php/api/v1/product/recent?count=15
+[ info ] weapp.wample.cn/zerg/public/index.php/api/v1/product/recent?count=15 [运行时间：0.032844s][吞吐率：30.45req/s] [内存消耗：3,418.23kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000737s ] mysql:host=101.201.232.185;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000958s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 15 [ RunTime:0.000493s ]
+---------------------------------------------------------------
+[ 2018-05-20T21:33:43+08:00 ] 123.149.73.205 GET /zerg/public/index.php/api/v1/product/recent?count=15
+[ info ] weapp.wample.cn/zerg/public/index.php/api/v1/product/recent?count=15 [运行时间：0.032127s][吞吐率：31.13req/s] [内存消耗：3,418.23kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000737s ] mysql:host=101.201.232.185;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000958s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 15 [ RunTime:0.000492s ]
+---------------------------------------------------------------
+[ 2018-05-20T21:35:29+08:00 ] 123.149.73.205 GET /zerg/public/index.php/api/v1/product/recent?count=15
+[ info ] weapp.wample.cn/zerg/public/index.php/api/v1/product/recent?count=15 [运行时间：0.033657s][吞吐率：29.71req/s] [内存消耗：3,418.23kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000740s ] mysql:host=101.201.232.185;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000956s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 15 [ RunTime:0.000480s ]
+---------------------------------------------------------------
+[ 2018-05-20T21:38:10+08:00 ] 123.149.73.205 GET /zerg/public/index.php/api/v1/product/recent?count=15
+[ info ] weapp.wample.cn/zerg/public/index.php/api/v1/product/recent?count=15 [运行时间：0.045112s][吞吐率：22.17req/s] [内存消耗：3,418.60kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009435s ] mysql:host=101.201.232.185;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.001987s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 15 [ RunTime:0.000462s ]
+---------------------------------------------------------------
+[ 2018-05-20T21:54:17+08:00 ] 123.149.73.205 GET /zerg/public/index.php/api/v1/category/all
+[ info ] weapp.wample.cn/zerg/public/index.php/api/v1/category/all [运行时间：0.034117s][吞吐率：29.31req/s] [内存消耗：3,526.89kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001379s ] mysql:host=101.201.232.185;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.002199s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.000712s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (6,5,7,4,8,9) [ RunTime:0.000528s ]
+---------------------------------------------------------------
+[ 2018-05-20T21:55:42+08:00 ] 123.149.73.205 GET /zerg/public/index.php/api/v1/category/all
+[ info ] weapp.wample.cn/zerg/public/index.php/api/v1/category/all [运行时间：0.031001s][吞吐率：32.26req/s] [内存消耗：3,527.50kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000704s ] mysql:host=101.201.232.185;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.000880s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (6,5,7,4,8,9) [ RunTime:0.000416s ]
+---------------------------------------------------------------
+[ 2018-05-20T21:59:15+08:00 ] 123.149.73.205 GET /zerg/public/index.php/api/v1/category/all
+[ info ] weapp.wample.cn/zerg/public/index.php/api/v1/category/all [运行时间：0.034103s][吞吐率：29.32req/s] [内存消耗：3,528.38kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000747s ] mysql:host=101.201.232.185;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.000872s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (6,5,7,4,8,9) [ RunTime:0.000447s ]
+---------------------------------------------------------------
+[ 2018-05-20T22:38:27+08:00 ] 123.149.73.205 GET /zerg/public/index.php/api/v1/product/by_category?id=3
+[ info ] weapp.wample.cn/zerg/public/index.php/api/v1/product/by_category?id=3 [运行时间：0.033167s][吞吐率：30.15req/s] [内存消耗：3,423.99kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000745s ] mysql:host=101.201.232.185;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000940s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `category_id` = 3 [ RunTime:0.000522s ]
